@@ -1,11 +1,15 @@
 # Hi, I'm Alirex
 
-I'm a software developer. I work mostly with Python and Rust, and I like small tools that take
-boring, repeated work off my hands: dependency upgrades, project layout, linters and formatters.
+I'm a software architect and backend / full-stack engineer with 10+ years in IT. I work mostly with
+Python and Rust, and I like small tools that take boring, repeated work off my hands: dependency
+upgrades, project layout, linters and formatters.
+
+For 8 years I have also taught programming: I build courses and mentor developers. I'm also studying
+for a master's degree in Software Engineering and AI at Neoversity.
 
 <!--
-TODO(maintainer): add your role and the kind of work you do at Cryeye, if you want them here
-(asked as a maintainer question in HQ). Don't fill this in with guesses.
+TODO(maintainer): full name, current position and "open to" line are left out on purpose
+(asked as a maintainer question in HQ). Don't fill them in with guesses.
 -->
 
 ## What I work on
@@ -14,6 +18,7 @@ TODO(maintainer): add your role and the kind of work you do at Cryeye, if you wa
 - Small Rust libraries and scripts
 - Local LLMs on my own GPU, with Ollama in Docker
 - Notes on code style, linters, pre-commit hooks and dependencies
+- Cybersecurity: I have built solutions for the CryEye / CQR security platforms
 
 ## Selected projects
 
@@ -34,9 +39,20 @@ TODO(maintainer): add your role and the kind of work you do at Cryeye, if you wa
 
 ## Stack
 
-- **Python**: uv, Ruff, pytest
-- **Rust**: Cargo workspaces, small crates
-- **Tooling**: Bash, just, pre-commit / prek, Docker
+- **Languages**: Python (FastAPI, Django), Rust, Bash, Vue.js
+- **Python tooling**: uv, Ruff, pytest
+- **Infrastructure**: Linux (Debian, Ubuntu), Docker and Docker Compose, Proxmox VE, Ansible
+- **Workflow**: just, pre-commit / prek, AI and LLM tools in daily development
+
+## Talks
+
+- "How to improve the code quality and predictability of your Python application. Synergy with AI",
+  a webinar at Hillel IT School (2024, in Ukrainian)
+- "How to teach grandma to program", a talk at PyDay Odessa
+
+## Languages
+
+Ukrainian, Russian, English
 
 ## Contact
 
