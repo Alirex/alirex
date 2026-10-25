@@ -1,5 +1,7 @@
 # Hi, I'm Alirex
 
+**Now: systems and automation.**
+
 I'm a software architect and backend / full-stack engineer with 10+ years in IT. I work mostly with
 Python and Rust, and I like small tools that take boring, repeated work off my hands: dependency
 upgrades, project layout, linters and formatters.
@@ -8,8 +10,8 @@ I have taught programming for 8 years: I build courses and mentor developers. I'
 for a master's degree in Software Engineering and AI at Neoversity.
 
 <!--
-TODO(maintainer): full name, current position and "open to" line are left out on purpose
-(asked as a maintainer question in HQ). Don't fill them in with guesses.
+TODO(maintainer): full name and location are left out on purpose (asked as a maintainer question in HQ).
+Not open to work: don't add an "open to" line. Don't fill anything in with guesses.
 -->
 
 ## What I work on
