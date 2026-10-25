@@ -1,6 +1,14 @@
+<div align="center">
+
 # Hi, I'm Alirex 👋
 
 ⚙️ **I build systems and automate the boring parts.**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-alirex--prime-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/alirex-prime/)
+[![crates.io](https://img.shields.io/badge/crates.io-Alirex-E6B14C?style=for-the-badge&logo=rust&logoColor=black)](https://crates.io/users/Alirex)
+[![PyPI](https://img.shields.io/badge/PyPI-uv--upx-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/uv-upx/)
+
+</div>
 
 🏗️ I'm a software architect and backend / full-stack engineer with 10+ years in IT. I work mostly
 with Python and Rust, and I like small tools that take repeated work off my hands: dependency
@@ -25,18 +33,26 @@ Not open to work: don't add an "open to" line. Don't fill anything in with guess
 
 ## 📦 Selected projects
 
+### 🐍 Python
+
 - ⬆️ **[uv_upgrade](https://github.com/Alirex/uv_upgrade)**: upgrades dependency versions in the
-  `pyproject.toml` files of uv projects. On PyPI as [`uv-upx`](https://pypi.org/project/uv-upx/).
+  `pyproject.toml` files of uv projects. Install it from PyPI as `uv-upx`.
   [![PyPI](https://img.shields.io/pypi/v/uv-upx?logo=pypi&logoColor=white)](https://pypi.org/project/uv-upx/)
   [![Stars](https://img.shields.io/github/stars/Alirex/uv_upgrade?logo=github)](https://github.com/Alirex/uv_upgrade)
+
+### 🦀 Rust
+
 - 🧩 **[rust_crate_to_workspace](https://github.com/Alirex/rust_crate_to_workspace)**: a Bash script
   that turns a single Rust crate into a Cargo workspace.
-- 🔗 **[path_as_uri](https://github.com/Alirex/rs_lib_i_path_as_uri)**: a Rust crate that turns a file
-  path into a URI you can click in the terminal. On [crates.io](https://crates.io/crates/path_as_uri).
+- 🔗 **[path_as_uri](https://github.com/Alirex/rs_lib_i_path_as_uri)**: a crate that turns a file path
+  into a URI you can click in the terminal.
   [![crates.io](https://img.shields.io/crates/v/path_as_uri?logo=rust)](https://crates.io/crates/path_as_uri)
-- 📁 **[app_root_folder](https://github.com/Alirex/rs_lib_i_app_root_folder)**: a Rust crate that finds
-  the app's root folder, like `BASE_DIR` in Python projects. On [crates.io](https://crates.io/crates/app_root_folder).
+- 📁 **[app_root_folder](https://github.com/Alirex/rs_lib_i_app_root_folder)**: a crate that finds the
+  app's root folder, like `BASE_DIR` in Python projects.
   [![crates.io](https://img.shields.io/crates/v/app_root_folder?logo=rust)](https://crates.io/crates/app_root_folder)
+
+### 🛠️ Tooling and notes
+
 - 🧹 **[pre-commit-just](https://github.com/Alirex/pre-commit-just)**: a pre-commit hook that formats
   justfiles with `just --fmt` (my fork, with my own changes).
 - 🦙 **[ollama_docker_public](https://github.com/Alirex/ollama_docker_public)**: Ollama in Docker with
@@ -79,9 +95,9 @@ Not open to work: don't add an "open to" line. Don't fill anything in with guess
 
 ## 🎤 Talks
 
-- "How to improve the code quality and predictability of your Python application. Synergy with AI",
+- 🎥 [How to improve the code quality and predictability of your Python application. Synergy with AI](https://blog.ithillel.ua/videos/synergy-with-generative-ai-video):
   a webinar at Hillel IT School (2024, in Ukrainian)
-- "How to teach grandma to program", a talk at PyDay Odessa
+- 👵 "How to teach grandma to program": a talk at PyDay Odessa
 
 ## 🗣️ Languages
 
@@ -89,6 +105,11 @@ Ukrainian · Russian · English
 
 ## 📫 Contact
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-alirex--prime-0A66C2?style=for-the-badge)](https://www.linkedin.com/in/alirex-prime/)
-
+- 💼 Write to me on [LinkedIn](https://www.linkedin.com/in/alirex-prime/).
 - 🐛 Questions about a project: open an issue in its repo.
+
+<div align="center">
+
+⭐ If one of my tools saved you time, a star on its repo helps others find it.
+
+</div>

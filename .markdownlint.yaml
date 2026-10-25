@@ -1,3 +1,6 @@
 # Default rules; the ones below are off on purpose, each with its reason.
 default: true
 MD013: false # line length: prettier wraps the prose, link-heavy list items may run longer
+MD033:
+  allowed_elements: [div] # GitHub has no Markdown syntax for centering; the header and footer use <div align="center">
+MD041: false # the profile README starts with the centering <div>, and its H1 is inside it
