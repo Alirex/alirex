@@ -4,7 +4,7 @@ I'm a software architect and backend / full-stack engineer with 10+ years in IT.
 Python and Rust, and I like small tools that take boring, repeated work off my hands: dependency
 upgrades, project layout, linters and formatters.
 
-For 8 years I have also taught programming: I build courses and mentor developers. I'm also studying
+I have taught programming for 8 years: I build courses and mentor developers. I'm also studying
 for a master's degree in Software Engineering and AI at Neoversity.
 
 <!--
