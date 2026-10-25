@@ -10,6 +10,8 @@ General practices live in HQ: [evocaslab/hq `practices/`](https://github.com/evo
 
 - Land directly on `main`: this is a tiny docs-only repo, so no worktree or branch is needed. Commit only when
   `prek run --all-files` passes, and push every commit right away. Read-only questions need no commit.
+- CI (`.github/workflows/ci.yml`) runs the same hooks on every push to `main`; check it after pushing
+  (`gh run list -L 1`) and fix a red run right away. Actions are pinned by full commit SHA; Dependabot updates them.
 - Setup once per clone: `prek install` (prek: `uv tool install prek`). markdownlint needs Node.js on PATH.
 - Markdown is formatted by prettier and checked by markdownlint with the default rules; `.markdownlint.yaml` turns a
   rule off only with a reason on its line. Fix the finding, don't silence it:
