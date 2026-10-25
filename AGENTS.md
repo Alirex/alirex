@@ -16,7 +16,8 @@ General practices live in HQ: [evocaslab/hq `practices/`](https://github.com/evo
   [HQ lint-strictness](https://github.com/evocaslab/hq/blob/main/practices/lint-strictness.md).
 - Only real, public facts in the README: public repos, links already on the GitHub profile. Never add private repos,
   company work, emails or guessed roles and numbers; ask the maintainer or leave a `TODO(maintainer)` comment.
-- No stat-card widgets, tracking pixels or third-party badges unless the maintainer asks.
+- Badges are shields.io only (static stack badges, package versions, stars). No stat-card widgets, visitor counters or
+  tracking pixels unless the maintainer asks.
 - Plain Markdown that reads well in light and dark themes and on phones: lists over wide tables, no images that only
   work on one background.
 - Plain, natural English: short sentences, no buzzwords.
