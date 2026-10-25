@@ -1,0 +1,25 @@
+# JetBrains: ignore all, then keep the shared files (module, interpreter, ruff, inspections, VCS).
+# Why: notes/ignore_or_not_ide_config/ukr.md; list: HQ practices/gitignore-and-ide.md.
+.idea/**
+!.idea/*.iml
+!.idea/modules.xml
+!.idea/misc.xml
+!.idea/vcs.xml
+!.idea/ruff.xml
+!.idea/codeStyles/
+!.idea/codeStyles/**
+!.idea/runConfigurations/
+!.idea/runConfigurations/**
+!.idea/inspectionProfiles/
+!.idea/inspectionProfiles/Project_Default.xml
+
+# Editors and OS
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Agent worktrees
+.worktrees/

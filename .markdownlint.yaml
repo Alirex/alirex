@@ -1,0 +1,3 @@
+# Default rules; the ones below are off on purpose, each with its reason.
+default: true
+MD013: false # line length: prettier wraps the prose, link-heavy list items may run longer
