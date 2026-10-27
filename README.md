@@ -19,7 +19,7 @@ upgrades, project layout, linters and formatters.
 🎓 I'm also studying for a master's degree in Software Engineering and AI at Neoversity.
 
 <!--
-TODO(maintainer): full name and location are left out on purpose (asked as a maintainer question in HQ).
+Full name and location stay out on purpose (maintainer's answer, evocaslab/hq#14).
 Not open to work: don't add an "open to" line. Don't fill anything in with guesses.
 -->
 
