@@ -8,6 +8,10 @@ General practices live in HQ: [evocaslab/hq `practices/`](https://github.com/evo
 
 ## Rules
 
+- To find HQ practices or backlog items, call the `hq` MCP tools first (`practices_for`, `practices_get`,
+  `practices_search`, `backlog_list`, `backlog_get`; load them with ToolSearch `hq`); fall back to the HQ checkout's
+  files and `just` when the server is not connected.
+  [Reasoning](https://github.com/evocaslab/hq/blob/main/practices/agent-instructions.md#use-the-mcp-for-practices-and-tasks).
 - Land directly on `main`: this is a tiny docs-only repo, so no worktree or branch is needed. Commit only when
   `prek run --all-files` passes, and push every commit right away. Read-only questions need no commit.
 - CI (`.github/workflows/ci.yml`) runs the same hooks on every push to `main`; check it after pushing
