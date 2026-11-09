@@ -1,0 +1,42 @@
+# What this repo needs, by context. Schema and rules: HQ practices/needs-by-context.md.
+# Docs-only profile repo: the README is the GitHub profile, CI runs the same prek hooks.
+# Check:  scripts/needs.py lint && scripts/needs.py check --context develop
+# Render: scripts/needs.py render   (the README table between the needs markers)
+version: 1
+needs:
+  - kind: tool
+    name: git
+    contexts: [develop, ci]
+    level: required
+    why: version control
+    check: command
+    fix: install git
+  - kind: tool
+    name: uv
+    contexts: [develop, ci]
+    level: required
+    why: runs scripts/needs.py and prek (uvx prek in CI)
+    check: command
+    fix: curl -LsSf https://astral.sh/uv/install.sh | sh
+  - kind: tool
+    name: prek
+    contexts: [develop, ci]
+    level: required
+    why: runs the quality gate hooks
+    check: command
+    fix: uv tool install prek
+  - kind: tool
+    name: gh
+    contexts: [develop]
+    level: optional
+    why: pull requests and issues
+    fallback: use the GitHub web UI
+    check: command
+    fix: install GitHub CLI, then gh auth login
+  - kind: tool
+    name: node
+    contexts: [develop, ci]
+    level: required
+    why: markdownlint and prettier hooks need Node.js on PATH
+    check: command
+    fix: install Node LTS (https://nodejs.org)
