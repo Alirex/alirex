@@ -30,3 +30,7 @@ General practices live in HQ: [evocaslab/hq `practices/`](https://github.com/evo
   work on one background.
 - Plain, natural English: short sentences, no buzzwords.
 - Commits are Conventional Commits (`docs:` for content, `chore:` for tooling), lowercase subject.
+- Change repo files with the Edit and Write tools, never `cat >`, `sed -i` or a heredoc through Bash: the command guard
+  denies them and every denial costs a turn. For a change in many files, Write a script and run it. Reasons:
+  [practices/agent-instructions.md](https://github.com/evocaslab/hq/blob/main/practices/agent-instructions.md).
+- Conformance: edit-rule-present
